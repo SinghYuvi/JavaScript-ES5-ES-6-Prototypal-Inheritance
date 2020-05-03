@@ -1,1 +1,1 @@
-# JavaScript-ES5-Prototypal-Inheritance
+# JavaScript-ES5 & ES6-Prototypal-Inheritance
