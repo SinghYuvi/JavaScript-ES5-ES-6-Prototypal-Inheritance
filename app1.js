@@ -5,9 +5,11 @@ class Person1 {
     this.lastName = lastName;
     this.birthday = new Date(dob);
   }
+  // Greeting prototype method of person class
   greeting() {
     return `Hello there ${this.firstName} ${this.lastName}`;
   }
+  // static method of person class
   static addNumbers(x, y) {
     return x + y;
   }
