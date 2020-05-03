@@ -1,5 +1,5 @@
 //============================================|ES 6 Class|===================================================
-class Person {
+class Person1 {
   constructor(firstName, lastName, dob) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -13,8 +13,8 @@ class Person {
   }
 }
 
-const mary = new Person('Mary', 'Williams', '11-13-1980');
+const mary = new Person1('Mary', 'Williams', '11-13-1980');
 console.log(mary);
 
 //calling static method
-console.log(Person.addNumbers(1,2));
+console.log(Person1.addNumbers(1,2));
